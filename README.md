@@ -1,4 +1,4 @@
-# web-app-vue
+# web-app-blog
 
 ## Project setup
 ```
