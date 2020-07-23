@@ -97,6 +97,7 @@ export default {
 
 <style scoped>
 .el-menu-style {
+  background-color: #563d7c;
 }
 .menu-font-size {
   font-size: 16px;

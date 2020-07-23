@@ -3,9 +3,11 @@
     <div>
       <el-carousel :interval="5000"
                    arrow="always">
-        <el-carousel-item v-for="item in 4"
-                          :key="item">
-          <h3>{{ item }}</h3>
+        <el-carousel-item v-for="item in imageData"
+                          :key="item.name">
+          <img style="width:100%;height:100%;"
+               :src="item.url"
+               class="carousel_image_type" />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -25,7 +27,16 @@ export default {
   name: 'Home',
   data () {
     return {
-    };
+      messages: [],
+      imageData: [
+        { name: 'picture001', url: require('../assets/image/carousel/001.jpg') },
+        { name: 'picture002', url: require('../assets/image/carousel/002.jpg') },
+        { name: 'picture003', url: require('../assets/image/carousel/003.jpg') },
+        { name: 'picture004', url: require('../assets/image/carousel/004.jpg') },
+        { name: 'picture005', url: require('../assets/image/carousel/005.jpg') },
+      ],
+
+    }
   },
 
 }

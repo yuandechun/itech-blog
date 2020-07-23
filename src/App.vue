@@ -6,19 +6,19 @@
         <!-- 设置页码最小高度 -->
         <div :style="height">
           <div>
-            <el-header>
+            <el-header style="padding: 0px;">
               <!-- 导航栏 -->
               <v-header></v-header>
             </el-header>
           </div>
           <div>
-            <el-main>
+            <el-main style="padding: 0px;">
               <!-- Body -->
               <router-view></router-view>
             </el-main>
           </div>
           <div>
-            <el-footer>
+            <el-footer style="padding: 0px;">
               <!-- 页脚 -->
               <v-footer></v-footer>
             </el-footer>
