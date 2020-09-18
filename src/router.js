@@ -18,6 +18,8 @@ Router.prototype.push = function push (location) {
 Vue.use(Router)
 
 const router = new Router({
+  //如打包文件存放在Tomcat/webapps/blog下，那么就这么写
+  base: '/blog/',
   mode: 'history',
   routes: [
     ...home,

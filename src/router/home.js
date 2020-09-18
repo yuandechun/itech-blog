@@ -1,11 +1,11 @@
 import Home from '@/views/Home'
-import Java from '@/views/Java'
-import SpringBoot from '@/views/SpringBoot'
-import SpringCloud from '@/views/SpringCloud'
-import MySql from '@/views/MySql'
-import SqlServer from '@/views/SqlServer'
-import Vue from '@/views/Vue'
-import Redis from '@/views/Redis'
+import Java from '@/views/java/Java'
+import SpringBoot from '@/views/springboot/SpringBoot'
+import SpringCloud from '@/views/springcloud/SpringCloud'
+import MySql from '@/views/mysql/MySql'
+import SqlServer from '@/views/sqlserver/SqlServer'
+import Vue from '@/views/vue/Vue'
+import Redis from '@/views/redis/Redis'
 
 
 
