@@ -1,22 +1,5 @@
-# java
-
-welcome learn java
-
-
-
-## install jdk
-
-install jdk guide
-
-## install tomcat
-
-install tomcat guide
-
-
-
-### coding
-
-how to coding
-
+# welcome learn java
+## 2222222222
+### 333333333
 
 

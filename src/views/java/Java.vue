@@ -12,6 +12,9 @@
 
     <div class="div-margin-top">
       <h1>Java基础学习</h1>
+      <div class="markdown-body">
+        <markdown />
+      </div>
     </div>
 
   </div>
@@ -20,9 +23,16 @@
 
 
 <script>
+// 引入 markdown 文件，引入后是一个组件，需要在 components 中注册
+import markdown from './md/test.md'
+// 代码高亮
+import 'highlight.js/styles/github.css'
+// 其他元素使用 github 的样式
+import 'github-markdown-css'
 
 export default {
   name: 'Home',
+  components: { markdown },
   data () {
     return {
     };
