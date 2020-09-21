@@ -37,6 +37,7 @@ export default {
   name: 'app',
   data () {
     return {
+      path: '',
       height: {
         width: '100%',
         height: '',
@@ -54,12 +55,15 @@ export default {
     'v-footer': Footer,
   },
 
+
   methods: {
     hh () {
       this.height.height = window.innerHeight - 63 + 'px';
     }
   }
 }
+
+
 </script>
 
 <style>

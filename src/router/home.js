@@ -6,6 +6,7 @@ import MySql from '@/views/mysql/MySql'
 import SqlServer from '@/views/sqlserver/SqlServer'
 import Vue from '@/views/vue/Vue'
 import Redis from '@/views/redis/Redis'
+import ShowMD from '@/views/ShowMD'
 
 
 
@@ -17,6 +18,14 @@ export default [
     component: Home,
     meta: {
       title: '首页'
+    }
+  },
+  {
+    path: '/showmd',
+    name: 'showmd',
+    component: ShowMD,
+    meta: {
+      title: 'MD'
     }
   },
   {

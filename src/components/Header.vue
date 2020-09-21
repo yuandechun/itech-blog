@@ -10,7 +10,7 @@
             class="menu-font-size">Home</span>
     </el-menu-item>
 
-    <el-submenu index="/java">
+    <el-submenu index="">
       <template slot="title">
         <i class="el-icon-notebook-1"></i>
         <span slot="title"
