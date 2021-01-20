@@ -8,7 +8,8 @@ module.exports = {
     proxy: null
   },
 
-  publicPath: './',
+  // publicPath: './',
+  publicPath: '/',
 
   chainWebpack: config => {
     config.module.rule('md')

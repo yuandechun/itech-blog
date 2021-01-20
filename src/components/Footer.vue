@@ -1,6 +1,6 @@
 <template>
   <el-footer>
-    <span> &copy; 2020 iTech| By De Chun Yuan </span>
+    <span> &copy; 2021 iTech| By De Chun Yuan </span>
   </el-footer>
 </template>
 

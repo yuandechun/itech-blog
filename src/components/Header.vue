@@ -7,14 +7,14 @@
     <el-menu-item index="/home">
       <i class="el-icon-menu"></i>
       <span slot="title"
-            class="menu-font-size">Home</span>
+            class="menu-font-size">首页</span>
     </el-menu-item>
 
     <el-submenu index="">
       <template slot="title">
         <i class="el-icon-notebook-1"></i>
         <span slot="title"
-              class="menu-font-size">Java</span>
+              class="menu-font-size">Java学习</span>
       </template>
       <el-menu-item index="/java/basis">Java Basis</el-menu-item>
       <el-menu-item index="/java/springboot">Spring Boot</el-menu-item>
@@ -25,7 +25,7 @@
       <template slot="title">
         <i class="el-icon-reading"></i>
         <span slot="title"
-              class="menu-font-size">Database</span>
+              class="menu-font-size">DataBase详解</span>
       </template>
       <el-menu-item index="/database/mysql">MySql</el-menu-item>
       <el-menu-item index="/database/sqlserver">SqlServer</el-menu-item>
@@ -36,7 +36,7 @@
       <template slot="title">
         <i class="el-icon-document"></i>
         <span slot="title"
-              class="menu-font-size">UI</span>
+              class="menu-font-size">UI实践</span>
       </template>
       <el-menu-item index="/ui/html">Html</el-menu-item>
       <el-menu-item index="/ui/vue">Vue</el-menu-item>
@@ -47,13 +47,14 @@
       <template slot="title">
         <i class="el-icon-notebook-2"></i>
         <span slot="title"
-              class="menu-font-size">NoSql</span>
+              class="menu-font-size">NoSql运用</span>
       </template>
       <el-menu-item index="/nosql/redis">Redis</el-menu-item>
       <el-menu-item index="/nosql/mongodb">MongoDB</el-menu-item>
       <el-menu-item index="/nosql/hbase">HBase</el-menu-item>
     </el-submenu>
 
+<!-- 
     <el-submenu index="/download">
       <template slot="title">
         <i class="el-icon-download"></i>
@@ -71,7 +72,7 @@
       </template>
       <el-menu-item @click="handleChangeLanguage('translateCn')">{{$t('nav.language.lang.cn')}}</el-menu-item>
       <el-menu-item @click="handleChangeLanguage('translateEn')">{{$t('nav.language.lang.en')}}</el-menu-item>
-    </el-submenu>
+    </el-submenu> -->
   </el-menu>
 </template>
 
